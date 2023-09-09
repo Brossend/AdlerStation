@@ -1,0 +1,61 @@
+.blue {
+    min-width: 42px;
+    min-height: 42px;
+
+    border: 0;
+    border-radius: 100px;
+
+    background-size: 41px 41px;
+    background: rgba(56, 119, 238, 0.7) url("./image/plus-1512-svgrepo-com.svg") no-repeat 1px 1px;
+
+    cursor: pointer;
+}
+
+.blue__isActive {
+    border-radius: 40px;
+
+    background: rgb(56, 119, 238) url("./image/Vector 11 (1).svg") no-repeat 15px 20px;
+
+    cursor: pointer;
+}
+
+
+.green {
+    min-width: 42px;
+    min-height: 42px;
+
+    border: 0;
+    border-radius: 100px;
+
+    background-size: 41px 41px;
+    background: rgba(106, 191, 75, 0.7) url("./image/plus-1512-svgrepo-com.svg") no-repeat 1px 1px;
+
+    cursor: pointer;
+}
+
+.green__isActive {
+    border-radius: 40px;
+
+    background: rgb(106, 191, 75) url("./image/Vector 11 (1).svg") no-repeat 15px 20px;
+
+    cursor: pointer;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.text {
+    display: none;
+}
+
+.text__isActive {
+    display: block;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+
+    padding: 11px 15px 11px 40px;
+}

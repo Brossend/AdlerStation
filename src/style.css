@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-blend-mode: multiply;
+    background-image: url("./image/carnaby-82KWr7KHwDg-unsplash 1.png");
+    background-color: rgba(2, 15, 32, 0.4);
+}
